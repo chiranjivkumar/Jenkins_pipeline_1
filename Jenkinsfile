@@ -14,7 +14,6 @@ pipeline {
         }
         stage('docker build') {
             steps {
-                bat('pwsh -version')
                 //pwsh(script: 'docker image -a')
             }
         }
